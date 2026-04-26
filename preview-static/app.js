@@ -3,6 +3,7 @@ const OVERRIDES_KEY = "aroma_preview_overrides_v1";
 const ORDERS_KEY = "aroma_preview_orders_v1";
 const ADMIN_SESSION_KEY = "aroma_preview_admin_v1";
 const REVISIONS_KEY = "aroma_preview_revisions_v1";
+const BUILD_ID = "20260426-2";
 
 function setDataSourceLabel(label) {
   const el = document.getElementById("apiBase");
@@ -10,6 +11,7 @@ function setDataSourceLabel(label) {
 }
 
 setDataSourceLabel("local (preview-data.json)");
+document.getElementById("buildId")?.replaceChildren(BUILD_ID);
 
 function safeJsonParse(raw, fallback) {
   try {
@@ -2507,7 +2509,10 @@ async function viewAdmin() {
               <div class="font-medium">Revisões</div>
               <div class="mt-1 text-sm text-fg/70">Rollback rápido das configurações (local).</div>
             </div>
-            <button id="clear" type="button" class="rounded-xl border border-border bg-card px-4 py-2 text-sm shadow-soft hover:bg-muted/60">Limpar</button>
+            <div class="flex items-center gap-2">
+              <button id="clearRevisions" type="button" class="rounded-xl border border-border bg-card px-4 py-2 text-sm shadow-soft hover:bg-muted/60">Limpar revisões</button>
+              <button id="resetLocal" type="button" class="rounded-xl border border-border bg-bg/60 px-4 py-2 text-sm shadow-soft hover:bg-muted/60">Resetar preview</button>
+            </div>
           </div>
           <div class="mt-4 space-y-2 text-sm" id="list"></div>
         </div>
@@ -2538,10 +2543,21 @@ async function viewAdmin() {
         toast("Revisão restaurada.", { type: "success" });
         setAdminRoute("settings", "general");
       });
-      root.querySelector("#clear").addEventListener("click", () => {
+      root.querySelector("#clearRevisions").addEventListener("click", () => {
         saveRevisions([]);
         toast("Revisões limpas.", { type: "success" });
         setAdminRoute("settings", "revisions");
+      });
+      root.querySelector("#resetLocal").addEventListener("click", () => {
+        const ok = window.confirm("Isso vai apagar alterações locais do preview (catálogo editado, revisões, pedidos e carrinho) neste navegador. Continuar?");
+        if (!ok) return;
+        localStorage.removeItem(OVERRIDES_KEY);
+        localStorage.removeItem(REVISIONS_KEY);
+        localStorage.removeItem(ORDERS_KEY);
+        localStorage.removeItem(ADMIN_SESSION_KEY);
+        localStorage.removeItem("tempero_cart_v1");
+        toast("Dados locais apagados. Recarregando…", { type: "success" });
+        window.setTimeout(() => window.location.reload(), 250);
       });
       return root;
     }
