@@ -6,18 +6,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        bg: "hsl(var(--bg))",
-        fg: "hsl(var(--fg))",
-        muted: "hsl(var(--muted))",
-        card: "hsl(var(--card))",
-        border: "hsl(var(--border))",
-        ring: "hsl(var(--ring))",
-        primary: "hsl(var(--primary))",
-        primaryFg: "hsl(var(--primary-fg))",
-        accent: "hsl(var(--accent))",
-        accentFg: "hsl(var(--accent-fg))",
-        danger: "hsl(var(--danger))",
-        dangerFg: "hsl(var(--danger-fg))"
+        bg: "hsl(var(--bg) / <alpha-value>)",
+        fg: "hsl(var(--fg) / <alpha-value>)",
+        muted: "hsl(var(--muted) / <alpha-value>)",
+        card: "hsl(var(--card) / <alpha-value>)",
+        border: "hsl(var(--border) / <alpha-value>)",
+        ring: "hsl(var(--ring) / <alpha-value>)",
+        primary: "hsl(var(--primary) / <alpha-value>)",
+        primaryFg: "hsl(var(--primary-fg) / <alpha-value>)",
+        accent: "hsl(var(--accent) / <alpha-value>)",
+        accentFg: "hsl(var(--accent-fg) / <alpha-value>)",
+        danger: "hsl(var(--danger) / <alpha-value>)",
+        dangerFg: "hsl(var(--danger-fg) / <alpha-value>)"
       },
       borderRadius: {
         sm: "12px",
@@ -39,4 +39,3 @@ export default {
   },
   plugins: []
 } satisfies Config;
-

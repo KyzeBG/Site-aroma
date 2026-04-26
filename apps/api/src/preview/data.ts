@@ -163,9 +163,9 @@ export async function loadPreviewDb(): Promise<PreviewDb> {
       settings: {
         storeName: "Tempero Gourmet",
         logoUrl: null,
-        primaryColor: "#0B0B0B",
-        backgroundColor: "#FFFFFF",
-        accentColor: "#6B4F3A",
+        primaryColor: "#8B4513",
+        backgroundColor: "#FAEBD7",
+        accentColor: "#D2691E",
         whatsapp: null,
         contactEmail: null,
         pixDiscountPercent: 5,
