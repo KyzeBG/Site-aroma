@@ -44,16 +44,16 @@
     <style>
       :root {
         color-scheme: light;
-        --bg: 34 78% 91%;
-        --fg: 25 18% 11%;
-        --muted: 34 38% 88%;
-        --card: 60 56% 91%;
-        --border: 25 18% 70%;
-        --ring: 25 75% 47%;
-        --primary: 25 76% 31%;
-        --primary-fg: 60 56% 91%;
-        --accent: 25 75% 47%;
-        --accent-fg: 25 18% 11%;
+        --bg: 35 69% 93%;
+        --fg: 25 22% 10%;
+        --muted: 32 36% 86%;
+        --card: 43 62% 96%;
+        --border: 28 24% 72%;
+        --ring: 25 75% 40%;
+        --primary: 25 75% 27%;
+        --primary-fg: 43 62% 96%;
+        --accent: 28 84% 48%;
+        --accent-fg: 25 22% 10%;
       }
       .dark {
         color-scheme: dark;
@@ -73,6 +73,16 @@
       }
       .dark .brandLogo {
         mix-blend-mode: normal;
+      }
+      .shadow-soft {
+        box-shadow:
+          0 1px 2px rgba(0, 0, 0, 0.05),
+          0 12px 30px rgba(43, 24, 13, 0.10);
+      }
+      .shadow-hero {
+        box-shadow:
+          0 20px 50px rgba(43, 24, 13, 0.22),
+          0 1px 2px rgba(0, 0, 0, 0.10);
       }
       :focus-visible {
         outline: 2px solid hsl(var(--ring));
@@ -114,47 +124,78 @@
       class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-xl focus:bg-card focus:px-4 focus:py-2 focus:text-sm focus:shadow"
       >Pular para o conteúdo</a
     >
-    <header class="sticky top-0 z-50 bg-bg/85 backdrop-blur border-b border-border">
-      <div class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
-        <a href="#/" class="flex items-center gap-3">
-          <span class="h-10 w-[160px] rounded-2xl border border-border bg-bg shadow overflow-hidden grid place-items-center">
-            <img
-              src="./brand/aroma-dos-temperos.jpg"
-              alt="Aroma dos Temperos"
-              class="brandLogo h-10 w-[160px] object-contain"
-              loading="eager"
-            />
-          </span>
-          <span class="font-serif text-lg tracking-tight hidden sm:block">Aroma dos Temperos</span>
-        </a>
-        <nav class="flex items-center gap-3 text-sm">
-          <a href="#/catalogo" class="rounded-xl px-3 py-2 text-fg/80 hover:text-fg hover:bg-muted/60"
-            >Catálogo</a
-          >
-          <a href="#/carrinho" class="rounded-xl px-3 py-2 text-fg/80 hover:text-fg hover:bg-muted/60"
-            >Carrinho (<span id="cartCount">0</span>)</a
-          >
-          <a href="#/admin" class="rounded-xl px-3 py-2 text-fg/60 hover:text-fg hover:bg-muted/60">Admin</a>
-          <button
-            id="themeToggle"
-            type="button"
-            class="rounded-xl border border-border bg-card px-3 py-2 text-xs hover:bg-muted/60"
-          >
-            Tema
-          </button>
-        </nav>
+    <header class="sticky top-0 z-50">
+      <div class="bg-[#2b1b12] text-[#FAEBD7]">
+        <div class="mx-auto max-w-6xl px-4 py-2 text-[11px] flex flex-wrap items-center justify-center gap-x-6 gap-y-1">
+          <span>Frete calculado na hora</span>
+          <span class="opacity-70">•</span>
+          <span><span class="font-medium">5%</span> de desconto no Pix</span>
+          <span class="opacity-70">•</span>
+          <span>Envio para todo Brasil</span>
+        </div>
+      </div>
+      <div class="bg-card/85 backdrop-blur border-b border-border">
+        <div class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between gap-4">
+          <a href="#/" class="flex items-center gap-3 min-w-0">
+            <span class="h-10 w-[170px] rounded-2xl border border-border bg-bg shadow-soft overflow-hidden grid place-items-center shrink-0">
+              <img
+                src="./brand/aroma-dos-temperos.jpg"
+                alt="Aroma dos Temperos"
+                class="brandLogo h-10 w-[170px] object-contain"
+                loading="eager"
+              />
+            </span>
+            <span class="font-serif text-lg tracking-tight hidden md:block truncate">Aroma dos Temperos</span>
+          </a>
+          <nav class="hidden md:flex items-center gap-1 text-sm">
+            <a href="#/" class="rounded-xl px-3 py-2 text-fg/80 hover:text-fg hover:bg-muted/60">Início</a>
+            <a href="#/catalogo?category=temperos" class="rounded-xl px-3 py-2 text-fg/80 hover:text-fg hover:bg-muted/60"
+              >Temperos</a
+            >
+            <a href="#/catalogo?category=ervas" class="rounded-xl px-3 py-2 text-fg/80 hover:text-fg hover:bg-muted/60">Ervas</a>
+            <a href="#/catalogo?category=pimentas" class="rounded-xl px-3 py-2 text-fg/80 hover:text-fg hover:bg-muted/60"
+              >Pimentas</a
+            >
+            <a href="#/catalogo?category=graos" class="rounded-xl px-3 py-2 text-fg/80 hover:text-fg hover:bg-muted/60">Grãos</a>
+          </nav>
+          <div class="flex items-center gap-2">
+            <a href="#/carrinho" class="rounded-xl border border-border bg-bg/60 px-3 py-2 text-xs shadow-soft hover:bg-muted/60">
+              Carrinho <span class="text-fg/60">(<span id="cartCount">0</span>)</span>
+            </a>
+            <a href="#/admin" class="rounded-xl border border-border bg-bg/60 px-3 py-2 text-xs shadow-soft hover:bg-muted/60">Admin</a>
+            <button id="themeToggle" type="button" class="rounded-xl border border-border bg-bg/60 px-3 py-2 text-xs shadow-soft hover:bg-muted/60">
+              Tema
+            </button>
+          </div>
+        </div>
       </div>
     </header>
 
-    <main id="conteudo" class="mx-auto max-w-6xl px-4 py-6">
+    <main id="conteudo" class="mx-auto max-w-6xl px-4 py-8">
       <div id="app"></div>
     </main>
 
-    <footer class="border-t border-border">
-      <div class="mx-auto max-w-6xl px-4 py-10 text-sm text-fg/70">
-        <div class="font-serif text-base text-fg">Aroma dos Temperos</div>
-        <div class="mt-2">Preview local (sem Next.js) rodando via Node portátil.</div>
-        <div class="mt-6 text-xs text-fg/50">Dados: <span id="apiBase">local (preview-data.json)</span></div>
+    <footer class="border-t border-border bg-card/60">
+      <div class="mx-auto max-w-6xl px-4 py-12 text-sm text-fg/70">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+          <div>
+            <div class="font-serif text-base text-fg">Aroma dos Temperos</div>
+            <div class="mt-2 text-sm text-fg/70">Sabores que transformam • Essência terrosa e natural.</div>
+          </div>
+          <div>
+            <div class="font-medium text-fg">Atalhos</div>
+            <div class="mt-3 space-y-2">
+              <a class="block hover:text-fg" href="#/catalogo">Catálogo</a>
+              <a class="block hover:text-fg" href="#/carrinho">Carrinho</a>
+              <a class="block hover:text-fg" href="#/admin">Admin</a>
+            </div>
+          </div>
+          <div>
+            <div class="font-medium text-fg">Preview</div>
+            <div class="mt-3 text-sm">Deploy no Vercel com dados em JSON e alterações no localStorage.</div>
+            <div class="mt-4 text-xs text-fg/50">Dados: <span id="apiBase">local (preview-data.json)</span></div>
+          </div>
+        </div>
       </div>
     </footer>
 

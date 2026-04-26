@@ -629,24 +629,25 @@ async function viewHome() {
 
   const node = el(`
     <div>
-      <section class="reveal rounded-3xl overflow-hidden border border-border bg-card shadow relative">
-        <div class="relative">
-          <img src="${heroImage}" alt="${banner?.title ?? "Temperos e pimentas"}" class="absolute inset-0 h-full w-full object-cover" />
-          <div class="absolute inset-0 bg-gradient-to-r from-bg/95 via-bg/75 to-bg/20"></div>
-          <div class="relative p-7 sm:p-10">
-            <div class="max-w-2xl">
-              <div class="flex flex-wrap items-center gap-2">
-                <span class="inline-flex items-center rounded-full border border-border bg-bg/60 px-3 py-1 text-xs text-fg/80">${settings.offers.pixDiscountPercent}% OFF no Pix</span>
-                <span class="inline-flex items-center rounded-full border border-border bg-bg/60 px-3 py-1 text-xs text-fg/80">Temperos e pimentas</span>
-              </div>
-              <h1 class="mt-6 font-serif text-4xl sm:text-6xl leading-[1.02]">${banner?.title ?? "Temperos e pimentas com alma artesanal"}</h1>
-              <p class="mt-4 text-fg/75 text-sm sm:text-lg">${banner?.subtitle ?? "Seleção terrosa e natural para transformar suas receitas: aromas, intensidade e sabor de verdade."}</p>
-              <div class="mt-8 flex flex-col sm:flex-row gap-3">
-                <a href="#/catalogo" class="inline-flex items-center justify-center rounded-xl bg-primary text-primaryFg px-6 py-3 text-sm font-medium shadow transition-[transform,box-shadow,background-color] duration-200 hover:-translate-y-0.5 hover:bg-primary/90 hover:shadow-lg active:translate-y-0">Explorar catálogo</a>
-                <a href="#categorias" class="inline-flex items-center justify-center rounded-xl border border-border bg-bg/60 px-6 py-3 text-sm font-medium shadow transition-[transform,background-color] duration-200 hover:-translate-y-0.5 hover:bg-muted/60 active:translate-y-0">Ver categorias</a>
-              </div>
-              <div class="mt-4 text-xs text-fg/70">${settings.offers.pixDiscountPercent}% no Pix • Catálogo completo • Ingredientes selecionados</div>
+      <section class="reveal rounded-3xl overflow-hidden border border-border bg-[#2b1b12] shadow-hero relative min-h-[62vh]">
+        <div class="absolute inset-0">
+          <img src="${heroImage}" alt="${banner?.title ?? "Temperos e pimentas"}" class="h-full w-full object-cover opacity-60" />
+          <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_left,_rgba(250,235,215,0.10),_transparent_55%)]"></div>
+          <div class="absolute inset-0 bg-gradient-to-r from-[#2b1b12]/95 via-[#2b1b12]/70 to-[#2b1b12]/20"></div>
+        </div>
+        <div class="relative p-8 sm:p-12">
+          <div class="max-w-2xl">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="inline-flex items-center rounded-full border border-[#FAEBD7]/25 bg-[#FAEBD7]/10 px-3 py-1 text-xs text-[#FAEBD7]/90">Coleção 2026</span>
+              <span class="inline-flex items-center rounded-full border border-[#FAEBD7]/25 bg-[#FAEBD7]/10 px-3 py-1 text-xs text-[#FAEBD7]/90">${settings.offers.pixDiscountPercent}% OFF no Pix</span>
             </div>
+            <h1 class="mt-7 font-serif text-5xl sm:text-6xl leading-[1.0] text-[#FAEBD7]">${banner?.title ?? "Temperos premium direto para sua casa"}</h1>
+            <p class="mt-5 text-[#FAEBD7]/80 text-sm sm:text-lg">${banner?.subtitle ?? "Ervas, especiarias e pimentas selecionadas. Sabor de verdade, entrega para todo Brasil."}</p>
+            <div class="mt-8 flex flex-col sm:flex-row gap-3">
+              <a href="#/catalogo" class="inline-flex items-center justify-center rounded-xl bg-[#FAEBD7] text-[#2b1b12] px-6 py-3 text-sm font-medium shadow-soft transition-[transform,box-shadow,background-color] duration-200 hover:-translate-y-0.5 hover:bg-[#F5F5DC] hover:shadow-hero active:translate-y-0">Comprar agora →</a>
+              <a href="#categorias" class="inline-flex items-center justify-center rounded-xl border border-[#FAEBD7]/35 bg-transparent text-[#FAEBD7] px-6 py-3 text-sm font-medium shadow-soft transition-[transform,background-color] duration-200 hover:-translate-y-0.5 hover:bg-[#FAEBD7]/10 active:translate-y-0">Ver categorias</a>
+            </div>
+            <div class="mt-5 text-xs text-[#FAEBD7]/70">Frete calculado na hora • ${settings.offers.pixDiscountPercent}% no Pix</div>
           </div>
         </div>
       </section>
@@ -1490,33 +1491,33 @@ async function viewAdmin() {
       </div>
 
       <div class="mt-6 grid grid-cols-1 lg:grid-cols-[280px,1fr] gap-6">
-        <aside class="rounded-2xl border border-border bg-card shadow p-4 h-fit">
+        <aside class="rounded-2xl border border-[#FAEBD7]/15 bg-[#2b1b12] shadow-hero p-4 h-fit text-[#FAEBD7]">
           <div class="flex items-center justify-between">
-            <div class="font-medium">Navegação</div>
-            <span class="text-[11px] text-fg/60">${authed ? "Logado" : "Visitante"}</span>
+            <div class="font-medium text-[#FAEBD7]">Navegação</div>
+            <span class="text-[11px] text-[#FAEBD7]/70">${authed ? "Logado" : "Visitante"}</span>
           </div>
           <div class="mt-4 space-y-2 text-sm">
-            <button data-tab="dashboard" type="button" class="w-full text-left rounded-xl border border-border px-4 py-2 shadow-soft hover:bg-muted/60">Dashboard</button>
-            <button data-tab="orders" type="button" class="w-full text-left rounded-xl border border-border px-4 py-2 shadow-soft hover:bg-muted/60">Pedidos</button>
+            <button data-tab="dashboard" type="button" class="w-full text-left rounded-xl border border-[#FAEBD7]/15 bg-[#FAEBD7]/5 px-4 py-2 shadow-soft hover:bg-[#FAEBD7]/10">Dashboard</button>
+            <button data-tab="orders" type="button" class="w-full text-left rounded-xl border border-[#FAEBD7]/15 bg-[#FAEBD7]/5 px-4 py-2 shadow-soft hover:bg-[#FAEBD7]/10">Pedidos</button>
 
-            <details class="rounded-xl border border-border bg-bg/40 px-3 py-2">
-              <summary class="cursor-pointer select-none text-sm font-medium">Anúncios</summary>
+            <details class="rounded-xl border border-[#FAEBD7]/15 bg-[#FAEBD7]/5 px-3 py-2">
+              <summary class="cursor-pointer select-none text-sm font-medium text-[#FAEBD7]">Anúncios</summary>
               <div class="mt-2 space-y-2">
-                <button data-tab="products" data-sub="list" type="button" class="w-full text-left rounded-xl border border-border bg-card px-3 py-2 text-xs shadow-soft hover:bg-muted/60">Lista</button>
-                <button data-tab="products" data-sub="new" type="button" class="w-full text-left rounded-xl border border-border bg-card px-3 py-2 text-xs shadow-soft hover:bg-muted/60">Criar (demo)</button>
+                <button data-tab="products" data-sub="list" type="button" class="w-full text-left rounded-xl border border-[#FAEBD7]/15 bg-[#2b1b12] px-3 py-2 text-xs shadow-soft hover:bg-[#FAEBD7]/10">Lista</button>
+                <button data-tab="products" data-sub="new" type="button" class="w-full text-left rounded-xl border border-[#FAEBD7]/15 bg-[#2b1b12] px-3 py-2 text-xs shadow-soft hover:bg-[#FAEBD7]/10">Criar (demo)</button>
               </div>
             </details>
 
-            <details class="rounded-xl border border-border bg-bg/40 px-3 py-2" ${tab === "settings" ? "open" : ""}>
-              <summary class="cursor-pointer select-none text-sm font-medium">Configuração</summary>
+            <details class="rounded-xl border border-[#FAEBD7]/15 bg-[#FAEBD7]/5 px-3 py-2" ${tab === "settings" ? "open" : ""}>
+              <summary class="cursor-pointer select-none text-sm font-medium text-[#FAEBD7]">Configuração</summary>
               <div class="mt-2 space-y-2">
-                <button data-tab="settings" data-sub="wizard" type="button" class="w-full text-left rounded-xl border border-border bg-card px-3 py-2 text-xs shadow-soft hover:bg-muted/60">Assistente</button>
-                <button data-tab="settings" data-sub="general" type="button" class="w-full text-left rounded-xl border border-border bg-card px-3 py-2 text-xs shadow-soft hover:bg-muted/60">Geral</button>
-                <button data-tab="settings" data-sub="revisions" type="button" class="w-full text-left rounded-xl border border-border bg-card px-3 py-2 text-xs shadow-soft hover:bg-muted/60">Revisões</button>
+                <button data-tab="settings" data-sub="wizard" type="button" class="w-full text-left rounded-xl border border-[#FAEBD7]/15 bg-[#2b1b12] px-3 py-2 text-xs shadow-soft hover:bg-[#FAEBD7]/10">Assistente</button>
+                <button data-tab="settings" data-sub="general" type="button" class="w-full text-left rounded-xl border border-[#FAEBD7]/15 bg-[#2b1b12] px-3 py-2 text-xs shadow-soft hover:bg-[#FAEBD7]/10">Geral</button>
+                <button data-tab="settings" data-sub="revisions" type="button" class="w-full text-left rounded-xl border border-[#FAEBD7]/15 bg-[#2b1b12] px-3 py-2 text-xs shadow-soft hover:bg-[#FAEBD7]/10">Revisões</button>
               </div>
             </details>
           </div>
-          <div class="mt-4 text-xs text-fg/60">
+          <div class="mt-4 text-xs text-[#FAEBD7]/70">
             Dica: o preview salva alterações no seu navegador (localStorage).
           </div>
         </aside>
@@ -1527,7 +1528,7 @@ async function viewAdmin() {
             <span>•</span>
             <span id="crumb"></span>
           </div>
-          <div class="mt-4 rounded-2xl border border-border bg-card shadow p-5" id="panel"></div>
+          <div class="mt-4 rounded-2xl border border-border bg-card shadow-soft p-5" id="panel"></div>
         </main>
       </div>
     </div>
