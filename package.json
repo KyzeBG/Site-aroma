@@ -1,0 +1,14 @@
+{
+  "name": "tempero-store",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @tempero/api & npm run dev -w @tempero/web",
+    "dev:api": "npm run dev -w @tempero/api",
+    "dev:web": "npm run dev -w @tempero/web",
+    "build": "npm run build -w @tempero/api && npm run build -w @tempero/web",
+    "lint": "npm run lint -w @tempero/api && npm run lint -w @tempero/web"
+  }
+}

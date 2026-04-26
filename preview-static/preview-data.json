@@ -1,0 +1,3402 @@
+{
+  "version": 1,
+  "admin": {
+    "email": "admin@tempero.com",
+    "password": "admin123456"
+  },
+  "settings": {
+    "storeName": "Aroma dos Temperos",
+    "logoUrl": "/brand/aroma-dos-temperos.jpg",
+    "primaryColor": "#8B4513",
+    "backgroundColor": "#FAEBD7",
+    "accentColor": "#D2691E",
+    "whatsapp": null,
+    "contactEmail": null,
+    "pixDiscountPercent": 5,
+    "freeShippingEnabled": false,
+    "freeShippingMinSubtotalCents": 0,
+    "shippingMarginPercent": 0,
+    "home": {
+      "banner": {
+        "title": "Temperos Premium Direto para Sua Casa",
+        "subtitle": "Ervas, especiarias e produtos naturais com qualidade gourmet.",
+        "ctaText": "Comprar agora",
+        "ctaHref": "/#mais-vendidos",
+        "imageUrl": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=1600&q=80"
+      },
+      "benefits": [
+        {
+          "title": "Aroma intenso",
+          "description": "Temperos e pimentas com presença e personalidade."
+        },
+        {
+          "title": "Ingredientes selecionados",
+          "description": "Curadoria focada em frescor e autenticidade."
+        },
+        {
+          "title": "Variedade",
+          "description": "Do cotidiano ao gourmet, para todo tipo de receita."
+        }
+      ]
+    }
+  },
+  "categories": [
+    {
+      "id": "infinitepay-1132315",
+      "name": "Temperos",
+      "slug": "temperos"
+    },
+    {
+      "id": "infinitepay-1132316",
+      "name": "Ervas",
+      "slug": "ervas"
+    },
+    {
+      "id": "infinitepay-1132320",
+      "name": "Grãos",
+      "slug": "graos"
+    },
+    {
+      "id": "infinitepay-1132321",
+      "name": "Pimentas",
+      "slug": "pimentas"
+    },
+    {
+      "id": "infinitepay-1132324",
+      "name": "Açúcares",
+      "slug": "acucares"
+    },
+    {
+      "id": "infinitepay-1279022",
+      "name": "Fruta",
+      "slug": "fruta"
+    }
+  ],
+  "products": [
+    {
+      "id": "2cf33999-37b4-4aa6-9986-9b687c11a63e",
+      "name": "Adoçante Eritritol",
+      "slug": "adocante-eritritol",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Toque doce na medida",
+        "Para sobremesas e bebidas",
+        "Uso versátil"
+      ],
+      "priceCents": 499,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132324",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/d11d12f3-658c-4003-9934-0fbbb2d2e7c8?v=20251124204055&q=thumbnail",
+          "alt": "Adoçante Eritritol",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "de15cd67-c161-472b-897b-dd0ea146e893",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "b5fcd72a-3128-415a-aadc-563a971b0d87",
+      "name": "Ajinomoto - Glutamato Monossodico",
+      "slug": "ajinomoto-glutamato-monossodico",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 522,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/575a03c3-1db6-4323-b0ac-6a29301a1baf?v=20250827210159&q=thumbnail",
+          "alt": "Ajinomoto - Glutamato Monossodico",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "fda4aeb4-f88e-4347-a0c2-89ca206be8fa",
+          "label": "250g",
+          "weightGrams": 250,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        },
+        {
+          "id": "57ab4d8f-d1f8-481f-b5a4-7b32aeb586eb",
+          "label": "500g",
+          "weightGrams": 500,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 303,
+          "stock": 100
+        },
+        {
+          "id": "c0cf6ed1-1b40-4d0b-bb26-e64ba0ad524d",
+          "label": "1kg",
+          "weightGrams": 1000,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 1018,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "44b011ba-7510-4e51-8bf3-0bdd5a0638b0",
+      "name": "Alecrim",
+      "slug": "alecrim",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 735,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/01e3a432-2cf0-47ff-b0ea-7dc567c2f73b?v=20250827210838&q=thumbnail",
+          "alt": "Alecrim",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "2254a851-a9f2-4721-88da-3d2ab384598c",
+          "label": "250g",
+          "weightGrams": 250,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        },
+        {
+          "id": "0f636221-4196-40c2-8d77-4918bcee5a3f",
+          "label": "500g",
+          "weightGrams": 500,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 505,
+          "stock": 100
+        },
+        {
+          "id": "c2b078c1-7541-41c9-9ea9-02b0b3ce0488",
+          "label": "1kg",
+          "weightGrams": 1000,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 1435,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "95a07c5a-44b6-412c-bb35-57616674ab35",
+      "name": "alho cebola e salsa desidratado",
+      "slug": "alho-cebola-e-salsa-desidratado",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 3780,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/6205a27f-7507-41ad-8cb5-66b6e9df2195?v=20251002161459&q=thumbnail",
+          "alt": "alho cebola e salsa desidratado",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "266bfc9f-b41c-4e44-89de-6843c9c0a1d1",
+          "label": "1kg",
+          "weightGrams": 1000,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "e988d6d4-c754-49bb-81ec-f2bc37a1ef47",
+      "name": "Alho Desidratado Flocos",
+      "slug": "alho-desidratado-flocos",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 1590,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/a07024f8-9795-421e-9134-eb827f5734b8?v=20250827215307&q=thumbnail",
+          "alt": "Alho Desidratado Flocos",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "5423224a-c769-4e2f-b90f-b545271733c3",
+          "label": "250g",
+          "weightGrams": 250,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        },
+        {
+          "id": "247d2d58-bb80-4155-88fe-d0ba2e89b593",
+          "label": "500g",
+          "weightGrams": 500,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 1100,
+          "stock": 100
+        },
+        {
+          "id": "0228a8de-9d9a-4095-9546-8f5841032765",
+          "label": "1kg",
+          "weightGrams": 1000,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 3100,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "755b29a7-ae43-41dd-95ad-4bace733becd",
+      "name": "Alho Em Pó",
+      "slug": "alho-em-po",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 490,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/f1056809-8f6f-4952-a104-491b736dce03?v=20250827212058&q=thumbnail",
+          "alt": "Alho Em Pó",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "9eb8b13b-f692-4a2a-98f9-64b0e6a336b8",
+          "label": "250g",
+          "weightGrams": 250,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        },
+        {
+          "id": "d6639cc8-41e4-4e5d-b775-8dc38bec5ede",
+          "label": "500g",
+          "weightGrams": 500,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 336,
+          "stock": 100
+        },
+        {
+          "id": "b779ea6c-e441-49a4-bcba-873f29c1ac9e",
+          "label": "1kg",
+          "weightGrams": 1000,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 1000,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "49a271c8-9a6e-41c9-a6a2-8284ad2ddea7",
+      "name": "Alho Granulado",
+      "slug": "alho-granulado",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 1500,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/9fa71436-793f-4320-ad75-a61743619af6?v=20250822210505&q=thumbnail",
+          "alt": "Alho Granulado",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "3cdb3379-dd9d-4a1a-ab4b-30fd94a71e5f",
+          "label": "250g",
+          "weightGrams": 250,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        },
+        {
+          "id": "12329163-cd6d-4b9d-aab2-35174b3e24df",
+          "label": "500g",
+          "weightGrams": 500,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 990,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "fa35aa96-a5ea-4ba9-b433-534256f4134e",
+      "name": "ALHO TRITURADO",
+      "slug": "alho-triturado",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 1300,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/a8757a9b-5c3c-4a92-a089-7da0421a5337?v=20251124201041&q=thumbnail",
+          "alt": "ALHO TRITURADO",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "5988e8d1-9559-4cf0-a04f-7575d939884e",
+          "label": "200g",
+          "weightGrams": 200,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        },
+        {
+          "id": "003f8848-7e78-4625-ac6a-69434e753bb5",
+          "label": "500g",
+          "weightGrams": 500,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 1200,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "1480b57f-2445-40c6-abfd-2f532ec5a5e4",
+      "name": "Ameixa Sem Caroço",
+      "slug": "ameixa-sem-caroco",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Energia e praticidade",
+        "Ótimo para lanches",
+        "Combina com receitas"
+      ],
+      "priceCents": 437,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1279022",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/b74a9dd5-af8a-4009-a096-95bc0fe3ab31?v=20251117232151&q=thumbnail",
+          "alt": "Ameixa Sem Caroço",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "b885b3b5-26e8-496e-8e8a-f7ca116d7f3a",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "deeb77fb-00c0-4f20-828d-fd93865deeb7",
+      "name": "Amêndoa Defumada",
+      "slug": "amendoa-defumada",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Textura e crocância",
+        "Ideal para mixes",
+        "Prático para cozinhar"
+      ],
+      "priceCents": 1200,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132320",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/f06f494e-9824-410d-8076-acb17e5e7616?v=20251117230828&q=thumbnail",
+          "alt": "Amêndoa Defumada",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "6bbbae6c-784b-4ff9-8def-c0444b952643",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "ba1d841c-a690-43a7-a9e3-e61dffc54e1f",
+      "name": "Amêndoa Laminada",
+      "slug": "amendoa-laminada",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Textura e crocância",
+        "Ideal para mixes",
+        "Prático para cozinhar"
+      ],
+      "priceCents": 1439,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132320",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/75d44dd9-831d-4d9b-bf43-140e740013db?v=20251117230932&q=thumbnail",
+          "alt": "Amêndoa Laminada",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "188728dd-aada-4b7b-94d7-2745aa09ec44",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "54119500-ca13-4c8e-b255-d7302a2af157",
+      "name": "Amêndoa torrada com sal",
+      "slug": "amendoa-torrada-com-sal",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Textura e crocância",
+        "Ideal para mixes",
+        "Prático para cozinhar"
+      ],
+      "priceCents": 1050,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132320",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/6d50f641-f11d-453f-b738-1312d7412314?v=20251108163645&q=thumbnail",
+          "alt": "Amêndoa torrada com sal",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "2986159d-ea06-476a-b251-2c39a8b5af2b",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "999a4338-aec7-4f1b-924e-312c907f62d0",
+      "name": "AMENDOIM OVINHO",
+      "slug": "amendoim-ovinho",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Textura e crocância",
+        "Ideal para mixes",
+        "Prático para cozinhar"
+      ],
+      "priceCents": 299,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132320",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/0cba5077-7d28-47da-9db1-89e5fba14faf?v=20251117232016&q=thumbnail",
+          "alt": "AMENDOIM OVINHO",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "f649ddf9-7c08-4eba-88b3-3391a6030d7e",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "e1633b25-a883-4b0d-b9ad-d144578b9d7c",
+      "name": "Amendoim torrado com sal",
+      "slug": "amendoim-torrado-com-sal",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Textura e crocância",
+        "Ideal para mixes",
+        "Prático para cozinhar"
+      ],
+      "priceCents": 217,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132320",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/ae47b104-b9db-4e63-9741-a84a11e390b5?v=20251117231702&q=thumbnail",
+          "alt": "Amendoim torrado com sal",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "2c5aa61c-8576-4022-a2db-1e0941aa07f0",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "cf8848d8-8164-4225-9cd9-1c565016578f",
+      "name": "Amendoim torrado sem sal",
+      "slug": "amendoim-torrado-sem-sal",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Textura e crocância",
+        "Ideal para mixes",
+        "Prático para cozinhar"
+      ],
+      "priceCents": 217,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132320",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/81bc7809-b5a4-423c-baa9-f24659bd488e?v=20251117231912&q=thumbnail",
+          "alt": "Amendoim torrado sem sal",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "79657fd0-1949-489d-9090-5ca347a99069",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "88b6494e-ff0a-49df-9301-321528ee3e26",
+      "name": "Camomila flor",
+      "slug": "camomila-flor",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 690,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/b24ef21e-b1b3-40e9-9839-9cc2f3550e08?v=20251123212149&q=thumbnail",
+          "alt": "Camomila flor",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "0eadbca3-0b8f-4694-8a05-f90a66d04bc0",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "08f1e82a-4f33-4f16-872d-1ff79fc069d4",
+      "name": "Canela em pó",
+      "slug": "canela-em-po",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 550,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/fa70bd6d-6a84-47e9-8d0c-bdf95e1545c5?v=20251123212815&q=thumbnail",
+          "alt": "Canela em pó",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "af73095d-078a-45c9-8d0e-46cd3791ef6d",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "526ec0ee-a555-4d13-9298-1c8b962c97fe",
+      "name": "Canela Jawa",
+      "slug": "canela-jawa",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 960,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/5f920eee-d07d-4abe-9c85-ba8ba070fd6a?v=20251123212548&q=thumbnail",
+          "alt": "Canela Jawa",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "6e4f1d8e-ce78-402e-ab8b-e39eec885d04",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "c2ba928d-05b9-40d6-ad3b-d8a18117f251",
+      "name": "Castanha de Cajú w1 com sal",
+      "slug": "castanha-de-caju-w1-com-sal",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Textura e crocância",
+        "Ideal para mixes",
+        "Prático para cozinhar"
+      ],
+      "priceCents": 980,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132320",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/da865d43-c68d-4489-9dc2-f1a7073dac0b?v=20251117232251&q=thumbnail",
+          "alt": "Castanha de Cajú w1 com sal",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "65472771-d5c6-42b7-b955-b6871352168d",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "35495083-122d-40b6-a85b-9ee768493291",
+      "name": "Castanha de cajú w1 sem sal",
+      "slug": "castanha-de-caju-w1-sem-sal",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Textura e crocância",
+        "Ideal para mixes",
+        "Prático para cozinhar"
+      ],
+      "priceCents": 980,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132320",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/9c93ad02-dd20-4ced-a037-c30f9e904ea4?v=20251117232106&q=thumbnail",
+          "alt": "Castanha de cajú w1 sem sal",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "d9add95c-c62b-44f0-ae25-b65dba39a97a",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "9e4f7f4b-0d2e-4acd-8eff-e7e749d6ad65",
+      "name": "Cebola Desidratada",
+      "slug": "cebola-desidratada",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 1090,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/d20f134a-a043-4651-8dfb-750c601959bf?v=20250822212511&q=thumbnail",
+          "alt": "Cebola Desidratada",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "e872d826-9ed2-4593-a669-817d5b398944",
+          "label": "250g",
+          "weightGrams": 250,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        },
+        {
+          "id": "d12b3cae-f594-4454-998d-7dbb9d7ca631",
+          "label": "500g",
+          "weightGrams": 500,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 700,
+          "stock": 100
+        },
+        {
+          "id": "13e62943-2a7f-4cc2-ab3e-ee6286274af0",
+          "label": "1kg",
+          "weightGrams": 1000,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 2000,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "fab76b67-9326-4a1b-8270-db291f06ec56",
+      "name": "CHÁ ALCACHOFRA",
+      "slug": "cha-alcachofra",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 720,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/736d6457-a5db-423f-b0ee-44e53c1919f4?v=20251123213253&q=thumbnail",
+          "alt": "CHÁ ALCACHOFRA",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "6470fa3e-41e4-4c96-abb5-1c491f7beb07",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "637168dd-510f-4423-9224-9d41cba8a2a8",
+      "name": "Chá Alfazema",
+      "slug": "cha-alfazema",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 1690,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/0cee61f7-4892-44a5-8dd2-e6642b9dd7ab?v=20251123213118&q=thumbnail",
+          "alt": "Chá Alfazema",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "030bea23-100a-4331-bc5d-385da3e46982",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "751eb511-32c2-46a9-908e-8f33d5960546",
+      "name": "Chá Aroeira Folha",
+      "slug": "cha-aroeira-folha",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 300,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/bf647b4d-fce2-4d24-a220-858cf90b6fad?v=20251123213459&q=thumbnail",
+          "alt": "Chá Aroeira Folha",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "64e8d86b-fe28-492a-8a1f-62c37b9a641e",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "0c228486-646b-4716-b6e7-f182693d3444",
+      "name": "Chá Barbatimão Casca",
+      "slug": "cha-barbatimao-casca",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 320,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/7cf7f0bc-2a8e-4545-a7f4-ce0a0a418a79?v=20251123213706&q=thumbnail",
+          "alt": "Chá Barbatimão Casca",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "a4e62d41-3bf4-4382-b9ff-955dc483a1c0",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "ad5df9c9-a6c4-4ed0-8f28-60516ca6f924",
+      "name": "Chá Boldo",
+      "slug": "cha-boldo",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 720,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/ec8bf324-5b12-4c6c-8788-4e71f40c2ae8?v=20251123213856&q=thumbnail",
+          "alt": "Chá Boldo",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "e4b8c84d-6523-4f80-951c-943350ee63f4",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "fbfdeff1-67b3-4f0a-869d-23ba3a170f4f",
+      "name": "Chá canela de Velho",
+      "slug": "cha-canela-de-velho",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 498,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/4819bc94-5bfc-4caa-8f36-fc2909fcbfe4?v=20251123212323&q=thumbnail",
+          "alt": "Chá canela de Velho",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "449c8112-d074-44ba-b9d4-654fe1871d5c",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "935ee0cd-ee78-4f2b-8ca8-c1c354b9f8a7",
+      "name": "Chá capim limão Erva Cidreira",
+      "slug": "cha-capim-limao-erva-cidreira",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 340,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/30883cdf-0896-48c4-9185-da6fb79b8868?v=20251123214229&q=thumbnail",
+          "alt": "Chá capim limão Erva Cidreira",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "5fd9b580-35e9-40e1-8012-70ad9b39960e",
+          "label": "Padrão",
+          "weightGrams": null,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "d2849b35-f738-4f71-8b5d-d2ea96457fca",
+      "name": "Chá Cardo Mariano Folha",
+      "slug": "cha-cardo-mariano-folha",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 1340,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/8426214a-ed9b-41d9-bdb3-515956ebbbad?v=20251123214443&q=thumbnail",
+          "alt": "Chá Cardo Mariano Folha",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "25989ec5-49f3-44ed-907b-7919e2dc39c5",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "3c733fa4-9ecd-4e09-b298-4856789077e9",
+      "name": "Chá Carqueja Amarga",
+      "slug": "cha-carqueja-amarga",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 340,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/91ca9140-eebf-4fe6-9309-5bbb6c375384?v=20251123214654&q=thumbnail",
+          "alt": "Chá Carqueja Amarga",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "c2238a11-4b9d-4a5e-8afc-bf3176bbd48e",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "29b6f7e0-f48a-4518-b0da-db046f40f8b2",
+      "name": "Chá Carqueja Doce",
+      "slug": "cha-carqueja-doce",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 300,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/496f25de-2998-4010-8d78-32aaed77ae8a?v=20251123214836&q=thumbnail",
+          "alt": "Chá Carqueja Doce",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "2538f15b-6e8c-42d5-b7fc-7e886c7032d2",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "996c1589-2db9-4bc0-9033-132796e9e37b",
+      "name": "Chá Catuaba em pó",
+      "slug": "cha-catuaba-em-po",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 520,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/93984adc-3cbb-4efd-b858-42303b4671ed?v=20251123215115&q=thumbnail",
+          "alt": "Chá Catuaba em pó",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "1e3a00ba-c415-48b4-9497-0cbcd045ad5e",
+          "label": "200g",
+          "weightGrams": 200,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "efae7d54-ed53-4f3c-803f-9cd5d86a4844",
+      "name": "Chá Cavalinha",
+      "slug": "cha-cavalinha",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 1120,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/5411d830-67c6-499b-bff1-5be1c9e66a26?v=20251127134437&q=thumbnail",
+          "alt": "Chá Cavalinha",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "eab8b6f1-c4fd-48b8-87db-a53831fda0fb",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "900d6621-caf2-46e4-9ef7-cd0a937656ae",
+      "name": "Chá Chapeu de Couro",
+      "slug": "cha-chapeu-de-couro",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 790,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/3ed3c060-ee71-4493-95c7-8c0518bcd8ef?v=20251123220219&q=thumbnail",
+          "alt": "Chá Chapeu de Couro",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "50959e41-dff6-44ce-b563-6743dc6275fb",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "587cd8c2-d2e7-4e21-9a1e-db25d724d60f",
+      "name": "Chá de bugre",
+      "slug": "cha-de-bugre",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 480,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/4c59e107-d85c-412a-a5d3-5b7dcff7ded0?v=20251123221139&q=thumbnail",
+          "alt": "Chá de bugre",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "4bd9422e-5d3b-40e4-b519-e45714422740",
+          "label": "200g",
+          "weightGrams": 200,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "99417030-0390-4930-b59f-437054fb64c0",
+      "name": "Chá de Calêndula",
+      "slug": "cha-de-calendula",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 1100,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/b2e69aee-56cd-4897-b2c0-e74fdc594f93?v=20251123221340&q=thumbnail",
+          "alt": "Chá de Calêndula",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "74abeaa1-38a3-4585-8771-e8e29b2b0bfb",
+          "label": "Padrão",
+          "weightGrams": null,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "e93f03f6-bbd4-4f37-a1b1-389c11fb5e0a",
+      "name": "Chá de Marcela",
+      "slug": "cha-de-marcela",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 1880,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/b22f3c60-1c5f-466c-89e0-92f0975f87f1?v=20251123221856&q=thumbnail",
+          "alt": "Chá de Marcela",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "d650fef4-4749-4257-9cb5-06d12cfda580",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "a2c631b4-c723-4d5d-a678-7e5a62660e01",
+      "name": "Chá Dente de leão",
+      "slug": "cha-dente-de-leao",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 600,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/836cce9c-8639-4164-8e7e-3de05a717b88?v=20251127134615&q=thumbnail",
+          "alt": "Chá Dente de leão",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "d5eb9174-a00c-45bc-a18b-e70be709474f",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "7ce7ec93-7ab3-42ba-9c04-244fd86249c4",
+      "name": "Chá Espinheira Santa",
+      "slug": "cha-espinheira-santa",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 780,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/3b3bae3f-71b5-4c80-a37e-3a42139c3443?v=20251123223336&q=thumbnail",
+          "alt": "Chá Espinheira Santa",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "1dc1ec70-e30f-434b-a774-7fd4310210e2",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "130d0b0a-20e8-4c31-816b-4d20edd8bb09",
+      "name": "Chá Eucalipto",
+      "slug": "cha-eucalipto",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 390,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/f06cd2b1-c169-4a4c-90f0-bd4f0d65c398?v=20251123223525&q=thumbnail",
+          "alt": "Chá Eucalipto",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "27f91ad2-f76d-4d80-b80e-419e5fc68f88",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "fd453f18-27f4-46d9-8bc8-e94b69a94478",
+      "name": "Chá Folha Amora",
+      "slug": "cha-folha-amora",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 520,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/aa4cec9e-3810-4515-8b82-f7650313ece8?v=20251123223752&q=thumbnail",
+          "alt": "Chá Folha Amora",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "55b234f4-3ced-4d50-9754-6dad346f1f70",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "6866ea5a-1c95-420c-9552-126a3e69d767",
+      "name": "Chá Folha de Maracujá (Passiflora)",
+      "slug": "cha-folha-de-maracuja-passiflora",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 640,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/74b7670c-6dd8-41a7-94f4-9bae93301316?v=20251123224004&q=thumbnail",
+          "alt": "Chá Folha de Maracujá (Passiflora)",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "003c9f5d-95ce-43fd-bd63-c44db2e52ef4",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "85825aa5-6405-44e7-9821-3f9eba7e4bb9",
+      "name": "Chá Funcho",
+      "slug": "cha-funcho",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 340,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/cb5e8472-7459-4066-99e6-c871b56b61a9?v=20251123223114&q=thumbnail",
+          "alt": "Chá Funcho",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "30946ac5-0d29-4109-a22a-4002004f0d42",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "05312c94-ddff-4426-8e50-99bd3f80a3a2",
+      "name": "Chá Moringa em pó",
+      "slug": "cha-moringa-em-po",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 630,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/b0985bb2-4bb4-42bb-873e-420cc9954a69?v=20251123220439&q=thumbnail",
+          "alt": "Chá Moringa em pó",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "3872a71a-ef6c-4650-a5ff-5bc5fdd53084",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "7970aaba-906c-42ed-a9df-1e883485d0b6",
+      "name": "ChimiChurri Sem Pimenta Premium",
+      "slug": "chimichurri-sem-pimenta-premium",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 599,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/954f13f1-cbc1-4f76-aa17-d43ee153fac0?v=20251127135346&q=thumbnail",
+          "alt": "ChimiChurri Sem Pimenta Premium",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "0ef0a503-8520-4599-9fe3-d4b7d01afcab",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "5d92aa7d-5b44-4c58-a03a-40c964e5799d",
+      "name": "Colorau",
+      "slug": "colorau",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 2940,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/1c0f7105-d977-48ff-9143-1109dc345e8c?v=20251020123232&q=thumbnail",
+          "alt": "Colorau",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "8ddb3b63-923e-47ee-ab39-973414d1416e",
+          "label": "1kg",
+          "weightGrams": 1000,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "e6843b0c-afb6-40af-83e8-4ab1d1b74677",
+      "name": "Colorau Paraíba",
+      "slug": "colorau-paraiba",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 499,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/a7402357-f888-4ab3-9c90-ee59e50c12a0?v=20251117231322&q=thumbnail",
+          "alt": "Colorau Paraíba",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "7175c05e-1c0e-487a-aa8c-455bc366948a",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "6678b14a-1020-4772-94a1-ffa144716e53",
+      "name": "Cominho em grão",
+      "slug": "cominho-em-grao",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 360,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/34b7fa1d-d12a-4d3f-8cad-bb113034aac4?v=20251117232733&q=thumbnail",
+          "alt": "Cominho em grão",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "6fe3266b-e85e-4b06-a2d8-6aced2497955",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "8821eca0-4a06-4365-a1d0-4fb3e3bc4410",
+      "name": "Cúrcuma em Pó",
+      "slug": "curcuma-em-po",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 2590,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/8ddd9187-a8c7-4f86-a41f-f271b105d385?v=20251117232623&q=thumbnail",
+          "alt": "Cúrcuma em Pó",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "1be18fdf-0c86-42fd-a3da-0456bbed9c9f",
+          "label": "1kg",
+          "weightGrams": 1000,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "839a1b9c-2f27-48de-a934-bd36164ddd4a",
+      "name": "Damasco",
+      "slug": "damasco",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Energia e praticidade",
+        "Ótimo para lanches",
+        "Combina com receitas"
+      ],
+      "priceCents": 1199,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1279022",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/4d3def93-9f9f-4657-b0fa-858edb28c532?v=20251116190341&q=thumbnail",
+          "alt": "Damasco",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "5619dc4c-f07d-4590-b5da-824bab28bb37",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "d937f9c8-4099-41fb-a83f-16ecbf81f8aa",
+      "name": "Erva de São João",
+      "slug": "erva-de-sao-joao",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 480,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/7549bd6a-8915-49d3-8158-8d369efb731c?v=20251123222327&q=thumbnail",
+          "alt": "Erva de São João",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "34ea159e-e25f-4e58-bced-1b68a846315a",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "313c4bf8-7cff-40d2-b12a-e2fc48518777",
+      "name": "Frutas Cristalizadas",
+      "slug": "frutas-cristalizadas",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Energia e praticidade",
+        "Ótimo para lanches",
+        "Combina com receitas"
+      ],
+      "priceCents": 364,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1279022",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/fa4ff00b-b01f-40bb-9a8f-6104c608bea5?v=20251127195255&q=thumbnail",
+          "alt": "Frutas Cristalizadas",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "f1e777c8-c6b0-4ba6-b50c-9f471c26dbfc",
+          "label": "200g",
+          "weightGrams": 200,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "05bdb87b-29a7-420d-a9dd-de15907d0d8b",
+      "name": "Gojiberry Desidratado",
+      "slug": "gojiberry-desidratado",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Energia e praticidade",
+        "Ótimo para lanches",
+        "Combina com receitas"
+      ],
+      "priceCents": 740,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1279022",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/d909b47b-1cc0-4a97-90c7-6708b71a4018?v=20251117231404&q=thumbnail",
+          "alt": "Gojiberry Desidratado",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "36e658a0-d689-4f20-99f0-c9d48ee48dde",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "c7786008-e001-4516-92a9-ca986dff2fa5",
+      "name": "Gotas Chá da Vida",
+      "slug": "gotas-cha-da-vida",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aromas naturais",
+        "Versátil para receitas",
+        "Sabor mais fresco"
+      ],
+      "priceCents": 1000,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132316",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/bc4229dc-f8ab-43fa-bb71-4d0d6d842e2b?v=20251124200945&q=thumbnail",
+          "alt": "Gotas Chá da Vida",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "215aa3c4-3627-410d-93dc-47688bb16ba3",
+          "label": "100ml",
+          "weightGrams": null,
+          "type": "volume_ml",
+          "quantity": 100,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "02aa038e-8511-43b5-a54b-42509b5e8ab8",
+      "name": "Juruteba em conserva",
+      "slug": "juruteba-em-conserva",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Picância equilibrada",
+        "Aroma marcante",
+        "Use no dia a dia"
+      ],
+      "priceCents": 2200,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132321",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/aba055aa-c477-4d04-b93a-a7f6dacb7d83?v=20251127134126&q=thumbnail",
+          "alt": "Juruteba em conserva",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "012c1b23-e7c0-4abe-94e0-368e43e8e624",
+          "label": "170g",
+          "weightGrams": 170,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "85e53ec6-eef3-4ede-8b21-e662ad56c25c",
+      "name": "kit pimentas mais fortes do mundo cada fogo mineiro",
+      "slug": "kit-pimentas-mais-fortes-do-mundo-cada-fogo-mineiro",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Picância equilibrada",
+        "Aroma marcante",
+        "Use no dia a dia"
+      ],
+      "priceCents": 5200,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132321",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/0a875a32-867f-4815-a8e7-cd59c6635243?v=20251127133030&q=thumbnail",
+          "alt": "kit pimentas mais fortes do mundo cada fogo mineiro",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "f2041791-b0f5-4df6-8c5e-7018a8f8f280",
+          "label": "100ml",
+          "weightGrams": null,
+          "type": "volume_ml",
+          "quantity": 100,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "61a178a8-61c6-4a7d-859d-7e15790a2c98",
+      "name": "Mix de Frutas Desidratadas",
+      "slug": "mix-de-frutas-desidratadas",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Energia e praticidade",
+        "Ótimo para lanches",
+        "Combina com receitas"
+      ],
+      "priceCents": 850,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1279022",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/20a5dff1-3577-4e13-8704-ccf8899abe82?v=20251117233018&q=thumbnail",
+          "alt": "Mix de Frutas Desidratadas",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "c81c5d72-9337-45f0-9162-23c79e771e1f",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "8d69e987-2322-48b7-bb40-2d204607dc2a",
+      "name": "Mix de Vegetais",
+      "slug": "mix-de-vegetais",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 1150,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/b3b25d32-5f4d-43d6-90b6-119cd998fa0b?v=20251124202709&q=thumbnail",
+          "alt": "Mix de Vegetais",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "f54cc69a-ad5a-4070-9805-5a1da4692298",
+          "label": "Padrão",
+          "weightGrams": null,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "d5bc97e0-738c-497a-bcf1-5418ea408797",
+      "name": "Molho de Pimenta Carolina Reaper macerada . fogo mineiro",
+      "slug": "molho-de-pimenta-carolina-reaper-macerada-fogo-mineiro",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Picância equilibrada",
+        "Aroma marcante",
+        "Use no dia a dia"
+      ],
+      "priceCents": 2400,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132321",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/c4363f78-374c-4fbb-ab7f-3c39905bc57e?v=20251127133303&q=thumbnail",
+          "alt": "Molho de Pimenta Carolina Reaper macerada . fogo mineiro",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "8b74b969-8bfd-4280-aa40-ed4d5ba89649",
+          "label": "100ml",
+          "weightGrams": null,
+          "type": "volume_ml",
+          "quantity": 100,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "05314b71-2034-494f-bec7-07bf4b6a340c",
+      "name": "Molho de Pimenta Carolina Reaper Nativa",
+      "slug": "molho-de-pimenta-carolina-reaper-nativa",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Picância equilibrada",
+        "Aroma marcante",
+        "Use no dia a dia"
+      ],
+      "priceCents": 990,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132321",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/fb638f1b-35ed-481d-b610-a2b2fd93885a?v=20251127134232&q=thumbnail",
+          "alt": "Molho de Pimenta Carolina Reaper Nativa",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "a769ae93-b37b-43c0-b8da-cd154420e56e",
+          "label": "Padrão",
+          "weightGrams": null,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "80d50af6-dc84-40c2-8063-8dadd22f406d",
+      "name": "Nozes com casca",
+      "slug": "nozes-com-casca",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Textura e crocância",
+        "Ideal para mixes",
+        "Prático para cozinhar"
+      ],
+      "priceCents": 499,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132320",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/b5e85712-0b73-40c3-a5f6-d185ca8ae6d8?v=20251123215926&q=thumbnail",
+          "alt": "Nozes com casca",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "510266f5-b4d6-4ca7-8cb5-e80a1188b5ae",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "9cf5815d-a6c5-467f-bcd3-55d60f3bb842",
+      "name": "Nozes Mariposa Extra Light Inteira",
+      "slug": "nozes-mariposa-extra-light-inteira",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Textura e crocância",
+        "Ideal para mixes",
+        "Prático para cozinhar"
+      ],
+      "priceCents": 890,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132320",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/434bfa22-de94-470c-a66d-c6519a518e6b?v=20251117230632&q=thumbnail",
+          "alt": "Nozes Mariposa Extra Light Inteira",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "29444255-53ab-4217-bcea-e65782679000",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "1ac76ad7-0db7-4c58-b468-44013d0c7589",
+      "name": "Nozes Pecan",
+      "slug": "nozes-pecan",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Textura e crocância",
+        "Ideal para mixes",
+        "Prático para cozinhar"
+      ],
+      "priceCents": 1898,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132320",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/4ec85614-b2ae-41b7-97f0-07cefd0fa09b?v=20251117233448&q=thumbnail",
+          "alt": "Nozes Pecan",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "ef1e8403-5894-46b4-a7de-91106b2f1d04",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "3fc2b1e3-0c48-4bea-93e8-c490b6dddb7c",
+      "name": "Nozes Quartz Quebrada",
+      "slug": "nozes-quartz-quebrada",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Textura e crocância",
+        "Ideal para mixes",
+        "Prático para cozinhar"
+      ],
+      "priceCents": 700,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132320",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/42ef19ee-9b5e-4e94-bf82-f3bbbd26a44d?v=20251117230702&q=thumbnail",
+          "alt": "Nozes Quartz Quebrada",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "32bab747-f462-48ff-90b7-6833ac393367",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "f625abdf-f5c5-48b2-8fe5-7e3fc7731d90",
+      "name": "Pimenta Bhut Jolokia macerada fogo mineiro",
+      "slug": "pimenta-bhut-jolokia-macerada-fogo-mineiro",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Picância equilibrada",
+        "Aroma marcante",
+        "Use no dia a dia"
+      ],
+      "priceCents": 2200,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132321",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/372e68de-1089-4a8e-a272-7681f9d04d80?v=20251127133326&q=thumbnail",
+          "alt": "Pimenta Bhut Jolokia macerada fogo mineiro",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "d01ba53a-c46a-4dc1-b9fd-ea3099f3a045",
+          "label": "100ml",
+          "weightGrams": null,
+          "type": "volume_ml",
+          "quantity": 100,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "686965d3-417e-41ed-93d3-105ad21f6fac",
+      "name": "Pimenta calabresa",
+      "slug": "pimenta-calabresa",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 490,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/340a2c10-1e46-4699-b8e9-4c60e7c3363f?v=20251117231154&q=thumbnail",
+          "alt": "Pimenta calabresa",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "ecbaf92f-2829-480b-bfff-289a7b044f3d",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "454d5e70-24b2-4724-af1c-4278d659062c",
+      "name": "Pimenta Carolina Reaper em conserva fogo mineiro",
+      "slug": "pimenta-carolina-reaper-em-conserva-fogo-mineiro",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Picância equilibrada",
+        "Aroma marcante",
+        "Use no dia a dia"
+      ],
+      "priceCents": 2400,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132321",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/35092e88-f46e-4f4a-8e14-9c2d72ca223f?v=20251127133804&q=thumbnail",
+          "alt": "Pimenta Carolina Reaper em conserva fogo mineiro",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "865338e4-cccf-4fe5-be9c-41cfbd253ebd",
+          "label": "Padrão",
+          "weightGrams": null,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "c13ab112-3fb1-4d3a-87b0-0aa1e6b7eb76",
+      "name": "pimenta Carolina reaper macerada no azeite",
+      "slug": "pimenta-carolina-reaper-macerada-no-azeite",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Picância equilibrada",
+        "Aroma marcante",
+        "Use no dia a dia"
+      ],
+      "priceCents": 2200,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132321",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/063fb66b-17ed-40a8-abd4-4392f0555e55?v=20251127133701&q=thumbnail",
+          "alt": "pimenta Carolina reaper macerada no azeite",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "be640cee-0283-4781-85b3-200c0d301fa2",
+          "label": "100ml",
+          "weightGrams": null,
+          "type": "volume_ml",
+          "quantity": 100,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "0e0840bd-0297-4c1e-8920-0fd46bc76e4b",
+      "name": "Pimenta cumari verde líquida. Aroma D’minas",
+      "slug": "pimenta-cumari-verde-liquida-aroma-d-minas",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Picância equilibrada",
+        "Aroma marcante",
+        "Use no dia a dia"
+      ],
+      "priceCents": 2990,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132321",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/cd8e0de1-255e-4168-87bc-21d2c7cd909f?v=20251202000145&q=thumbnail",
+          "alt": "Pimenta cumari verde líquida. Aroma D’minas",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "666f55b8-569d-4fe9-be7c-199ac8be0fcc",
+          "label": "300g",
+          "weightGrams": 300,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "11086acf-4d6d-4602-9969-0421257d13c5",
+      "name": "Pimenta do reino preta",
+      "slug": "pimenta-do-reino-preta",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 980,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/1e26a214-066a-44fc-866f-2ac37b45085c?v=20251116184154&q=thumbnail",
+          "alt": "Pimenta do reino preta",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "8fa58b03-fd6c-4687-80c0-7527c062052c",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "c7a04b39-016e-47af-8d2a-25d88b5d2176",
+      "name": "Pimenta do Reino Verde em conserva",
+      "slug": "pimenta-do-reino-verde-em-conserva",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Picância equilibrada",
+        "Aroma marcante",
+        "Use no dia a dia"
+      ],
+      "priceCents": 2500,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132321",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/60d148c2-feaf-4795-9d88-24720e9ff2b1?v=20251201234748&q=thumbnail",
+          "alt": "Pimenta do Reino Verde em conserva",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "c24559c6-3efd-4f92-9e5e-65b36ce9e7c5",
+          "label": "170g",
+          "weightGrams": 170,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "d52419b6-7e4c-4893-92ce-a468a5ff33ab",
+      "name": "Pimenta Trinidad Scorpion Macerada fogo mineiro",
+      "slug": "pimenta-trinidad-scorpion-macerada-fogo-mineiro",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Picância equilibrada",
+        "Aroma marcante",
+        "Use no dia a dia"
+      ],
+      "priceCents": 2400,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132321",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/a1287956-e86c-44d6-ac75-9faf6a3bbb51?v=20251127133418&q=thumbnail",
+          "alt": "Pimenta Trinidad Scorpion Macerada fogo mineiro",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "d3dec5b6-20e0-4e17-8c4a-b0e422a2af51",
+          "label": "100ml",
+          "weightGrams": null,
+          "type": "volume_ml",
+          "quantity": 100,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "62ff5062-eb6a-4b8c-9ea2-fab652ce344b",
+      "name": "Sal de Parrilla com Chimichurry",
+      "slug": "sal-de-parrilla-com-chimichurry",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 800,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/19f87aab-7da8-4fee-b1b2-0e2476c383ac?v=20251127134832&q=thumbnail",
+          "alt": "Sal de Parrilla com Chimichurry",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "333d418c-dbb8-4137-be05-05d5c28b069b",
+          "label": "500g",
+          "weightGrams": 500,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "84ad4410-a50c-4af9-a906-35f4a5f16645",
+      "name": "Salsa desidratada",
+      "slug": "salsa-desidratada",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 3640,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/b5d76cdd-c8b8-40c5-b8c3-3d112347581f?v=20251002160612&q=thumbnail",
+          "alt": "Salsa desidratada",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "79082ce5-e569-41d7-9ab1-3304766df2b2",
+          "label": "1kg",
+          "weightGrams": 1000,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "35a88649-a995-4ed1-9921-27a76d651601",
+      "name": "Semente de Abóbora Sem Casca Crua",
+      "slug": "semente-de-abobora-sem-casca-crua",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Textura e crocância",
+        "Ideal para mixes",
+        "Prático para cozinhar"
+      ],
+      "priceCents": 499,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132320",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/8c3b4228-beaf-44f2-bcc4-3bed9d5a3e8a?v=20251124203549&q=thumbnail",
+          "alt": "Semente de Abóbora Sem Casca Crua",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "9028bb9c-6b80-4aa8-909a-b13194454487",
+          "label": "Padrão",
+          "weightGrams": null,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "de0451c1-1f46-4096-ba40-4254edaed2f0",
+      "name": "Semente de Chia",
+      "slug": "semente-de-chia",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Textura e crocância",
+        "Ideal para mixes",
+        "Prático para cozinhar"
+      ],
+      "priceCents": 329,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132320",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/3e957181-cb46-4f3e-892a-9ec54e4f1c0d?v=20251127200111&q=thumbnail",
+          "alt": "Semente de Chia",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "f73bc397-8f9d-4acb-8ea8-5f42f73303c9",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "a7747a1d-c2ef-4f1e-968b-d927c4225ef0",
+      "name": "Tamara Jumbo",
+      "slug": "tamara-jumbo",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Energia e praticidade",
+        "Ótimo para lanches",
+        "Combina com receitas"
+      ],
+      "priceCents": 449,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1279022",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/d21024e3-581f-4092-872c-7c3d8ca45726?v=20251127194715&q=thumbnail",
+          "alt": "Tamara Jumbo",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "399f8493-8838-47ac-bb5b-50280835b1a9",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "e9edb91d-3389-48a7-84e4-ffd1db5c2be7",
+      "name": "Tâmara Premium Importada",
+      "slug": "tamara-premium-importada",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Energia e praticidade",
+        "Ótimo para lanches",
+        "Combina com receitas"
+      ],
+      "priceCents": 529,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1279022",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/731343cc-6915-4544-82bd-9a238a40193f?v=20251117231827&q=thumbnail",
+          "alt": "Tâmara Premium Importada",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "ba88fd61-8a51-4a86-bfe7-4792362fb055",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "226214d3-fa44-445d-99e2-1b3c48c865a8",
+      "name": "Tamara Sem caroço",
+      "slug": "tamara-sem-caroco",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Energia e praticidade",
+        "Ótimo para lanches",
+        "Combina com receitas"
+      ],
+      "priceCents": 329,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1279022",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/b8959d10-fcce-4a57-acf5-8585c804557a?v=20251127193812&q=thumbnail",
+          "alt": "Tamara Sem caroço",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "a3474407-0e9b-4513-afb3-46802b86ed8b",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "131edb20-547a-46ee-a86a-d4562e9ec3cd",
+      "name": "Tempera tudo",
+      "slug": "tempera-tudo",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 499,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [],
+      "variants": [
+        {
+          "id": "902db898-475a-4bbc-bb8f-5a59b3388a8a",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "3c2852a4-974e-43ca-aeff-f20926c14c4c",
+      "name": "Tempero Ana Maria Braga",
+      "slug": "tempero-ana-maria-braga",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 399,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/f0a519b6-0078-43c3-b922-71a91e363b26?v=20251127135506&q=thumbnail",
+          "alt": "Tempero Ana Maria Braga",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "92371b35-8dfb-4fdf-b498-f702f0d02e5d",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "6e119767-6a1b-45e1-a3ac-b347fcaae398",
+      "name": "Tempero baiano com pimenta",
+      "slug": "tempero-baiano-com-pimenta",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 599,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/da47fede-0e10-4203-9778-94a0fbed4967?v=20251117231605&q=thumbnail",
+          "alt": "Tempero baiano com pimenta",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "6a27ff72-ab37-4d17-916d-e191e5cfcd25",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "0417fa6a-8f90-461b-828c-1de1d75ee371",
+      "name": "Tempero Edu Guedes",
+      "slug": "tempero-edu-guedes",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 549,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/dd2b2206-72df-4393-9c74-a3652edff113?v=20251127135643&q=thumbnail",
+          "alt": "Tempero Edu Guedes",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "5812fc64-60f8-48ec-949f-8a608b4b0fed",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "d868b05e-6361-46af-9c1a-36e32e627429",
+      "name": "Tempero mix Gourmet",
+      "slug": "tempero-mix-gourmet",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 640,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/f4077a16-8b7d-4d69-8d0d-0b07418fddb6?v=20251127135839&q=thumbnail",
+          "alt": "Tempero mix Gourmet",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "3fba8867-7b7e-4496-a326-4d20915604ba",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "d09dd83f-ab42-4583-a1a4-bc7bf14a3265",
+      "name": "Tempero Pega Marido",
+      "slug": "tempero-pega-marido",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 560,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/c3ee5922-4ffd-44b2-b946-f6693da5f57c?v=20251117232457&q=thumbnail",
+          "alt": "Tempero Pega Marido",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "9bafa2d4-b6ef-4dce-a975-9338f94d6cf8",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "209aa48d-9905-496f-9548-ca508408bee7",
+      "name": "Tempero Vinagrete",
+      "slug": "tempero-vinagrete",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Aroma intenso",
+        "Ingredientes selecionados",
+        "Sabor de verdade"
+      ],
+      "priceCents": 589,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1132315",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/4294584a-1c94-4228-862f-75f8fceeed81?v=20251127135152&q=thumbnail",
+          "alt": "Tempero Vinagrete",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "ad1c3b26-14e1-4f39-892a-70bcdb373957",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.188Z",
+      "updatedAt": "2026-04-26T17:35:04.188Z"
+    },
+    {
+      "id": "584e193c-efb8-4259-8490-bae5c22c9fcd",
+      "name": "Uva Passa Clara",
+      "slug": "uva-passa-clara",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Energia e praticidade",
+        "Ótimo para lanches",
+        "Combina com receitas"
+      ],
+      "priceCents": 575,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1279022",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/89ac8a1a-311d-4f5b-bc45-63a396353ecc?v=20251117231237&q=thumbnail",
+          "alt": "Uva Passa Clara",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "3c433789-645b-4521-883f-dbf8237abefd",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    },
+    {
+      "id": "6ea4a5ce-5ce0-47c8-90dd-923f8d5351f4",
+      "name": "Uva Passa Escura sem Semente",
+      "slug": "uva-passa-escura-sem-semente",
+      "description": "Produto importado da loja Aroma dos Temperos. Selecione a variação desejada antes de adicionar ao carrinho.",
+      "benefits": [
+        "Energia e praticidade",
+        "Ótimo para lanches",
+        "Combina com receitas"
+      ],
+      "priceCents": 329,
+      "promoPriceCents": null,
+      "stock": 100,
+      "isActive": true,
+      "categoryId": "infinitepay-1279022",
+      "images": [
+        {
+          "url": "https://api.infinitepay.io/pdv/v1/products/variation/media_proxy/3bd2c88a-f052-4e31-ab6f-3d22b0cb2155?v=20251117232415&q=thumbnail",
+          "alt": "Uva Passa Escura sem Semente",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "0d7498d5-e13a-4375-967f-6008390acf4c",
+          "label": "100g",
+          "weightGrams": 100,
+          "type": null,
+          "quantity": null,
+          "priceDeltaCents": 0,
+          "stock": 100
+        }
+      ],
+      "createdAt": "2026-04-26T17:35:04.189Z",
+      "updatedAt": "2026-04-26T17:35:04.189Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "b72b9483-e434-4789-aeca-a5deae797d5d",
+      "code": "TG260426-6YWBG",
+      "status": "PENDING_PAYMENT",
+      "customerName": "",
+      "email": "",
+      "cpf": "",
+      "phone": "",
+      "address": {
+        "zip": "03383000",
+        "street": "",
+        "number": "",
+        "complement": null,
+        "neighborhood": "",
+        "city": "",
+        "state": ""
+      },
+      "items": [
+        {
+          "id": "5fa1ec71-2112-4af6-843d-f697dde3cc19",
+          "productId": "36b8a8ce-e7c4-4930-8dcb-21d1d90f1446",
+          "variantId": null,
+          "nameSnapshot": "Pimenta Preta em Grãos",
+          "variantSnapshot": null,
+          "unitPriceCents": 2490,
+          "quantity": 1,
+          "totalCents": 2490
+        }
+      ],
+      "subtotalCents": 2490,
+      "shippingCents": 1890,
+      "discountCents": 125,
+      "totalCents": 4255,
+      "shippingServiceName": "Econômico",
+      "shippingDeadlineDays": 6,
+      "createdAt": "2026-04-26T07:22:55.872Z",
+      "updatedAt": "2026-04-26T07:22:55.872Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "6609b9de-9bfc-4abc-b2df-9e64f5f8003f",
+      "orderId": "b72b9483-e434-4789-aeca-a5deae797d5d",
+      "provider": "MOCK",
+      "method": "PIX",
+      "status": "PENDING",
+      "payload": {
+        "copyPaste": "MOCK_PIX_TG260426-6YWBG"
+      },
+      "createdAt": "2026-04-26T07:22:55.872Z",
+      "updatedAt": "2026-04-26T07:22:55.872Z"
+    }
+  ],
+  "updatedAt": "2026-04-26T17:35:04.202Z"
+}

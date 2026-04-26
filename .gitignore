@@ -1,0 +1,15 @@
+node_modules
+.next
+dist
+build
+.turbo
+.tools
+.tools/
+.env
+.env.*.local
+*.log
+.DS_Store
+.idea
+.vscode
+coverage
+uploads

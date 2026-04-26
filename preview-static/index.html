@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Aroma dos Temperos (Preview)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          borderRadius: {
+            none: "0px",
+            sm: "12px",
+            DEFAULT: "12px",
+            md: "14px",
+            lg: "16px",
+            xl: "20px",
+            "2xl": "24px",
+            "3xl": "28px",
+            full: "9999px"
+          },
+          extend: {
+            colors: {
+              bg: "hsl(var(--bg) / <alpha-value>)",
+              fg: "hsl(var(--fg) / <alpha-value>)",
+              muted: "hsl(var(--muted) / <alpha-value>)",
+              card: "hsl(var(--card) / <alpha-value>)",
+              border: "hsl(var(--border) / <alpha-value>)",
+              primary: "hsl(var(--primary) / <alpha-value>)",
+              primaryFg: "hsl(var(--primary-fg) / <alpha-value>)",
+              accent: "hsl(var(--accent) / <alpha-value>)",
+              accentFg: "hsl(var(--accent-fg) / <alpha-value>)",
+              ring: "hsl(var(--ring) / <alpha-value>)"
+            },
+            fontFamily: {
+              serif: ["Georgia", "serif"],
+              sans: ["system-ui", "Segoe UI", "Inter", "Arial", "sans-serif"]
+            }
+          }
+        }
+      };
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: 34 78% 91%;
+        --fg: 25 18% 11%;
+        --muted: 34 38% 88%;
+        --card: 60 56% 91%;
+        --border: 25 18% 70%;
+        --ring: 25 75% 47%;
+        --primary: 25 76% 31%;
+        --primary-fg: 60 56% 91%;
+        --accent: 25 75% 47%;
+        --accent-fg: 25 18% 11%;
+      }
+      .dark {
+        color-scheme: dark;
+        --bg: 20 59% 7%;
+        --fg: 34 78% 91%;
+        --muted: 20 40% 12%;
+        --card: 20 56% 9%;
+        --border: 20 35% 18%;
+        --ring: 25 75% 47%;
+        --primary: 25 75% 47%;
+        --primary-fg: 20 59% 7%;
+        --accent: 19 56% 40%;
+        --accent-fg: 34 78% 91%;
+      }
+      .brandLogo {
+        mix-blend-mode: multiply;
+      }
+      .dark .brandLogo {
+        mix-blend-mode: normal;
+      }
+      :focus-visible {
+        outline: 2px solid hsl(var(--ring));
+        outline-offset: 2px;
+      }
+      @keyframes fade-up {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .reveal {
+        opacity: 0;
+        transform: translateY(10px);
+        transition: opacity 500ms ease, transform 500ms ease;
+      }
+      .reveal[data-inview="true"] {
+        opacity: 1;
+        transform: translateY(0);
+        animation: fade-up 550ms ease both;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        * {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+          scroll-behavior: auto !important;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-bg text-fg">
+    <a
+      href="#conteudo"
+      class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-xl focus:bg-card focus:px-4 focus:py-2 focus:text-sm focus:shadow"
+      >Pular para o conteúdo</a
+    >
+    <header class="sticky top-0 z-50 bg-bg/85 backdrop-blur border-b border-border">
+      <div class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+        <a href="#/" class="flex items-center gap-3">
+          <span class="h-10 w-[160px] rounded-2xl border border-border bg-bg shadow overflow-hidden grid place-items-center">
+            <img
+              src="./brand/aroma-dos-temperos.jpg"
+              alt="Aroma dos Temperos"
+              class="brandLogo h-10 w-[160px] object-contain"
+              loading="eager"
+            />
+          </span>
+          <span class="font-serif text-lg tracking-tight hidden sm:block">Aroma dos Temperos</span>
+        </a>
+        <nav class="flex items-center gap-3 text-sm">
+          <a href="#/catalogo" class="rounded-xl px-3 py-2 text-fg/80 hover:text-fg hover:bg-muted/60"
+            >Catálogo</a
+          >
+          <a href="#/carrinho" class="rounded-xl px-3 py-2 text-fg/80 hover:text-fg hover:bg-muted/60"
+            >Carrinho (<span id="cartCount">0</span>)</a
+          >
+          <a href="#/admin" class="rounded-xl px-3 py-2 text-fg/60 hover:text-fg hover:bg-muted/60">Admin</a>
+          <button
+            id="themeToggle"
+            type="button"
+            class="rounded-xl border border-border bg-card px-3 py-2 text-xs hover:bg-muted/60"
+          >
+            Tema
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo" class="mx-auto max-w-6xl px-4 py-6">
+      <div id="app"></div>
+    </main>
+
+    <footer class="border-t border-border">
+      <div class="mx-auto max-w-6xl px-4 py-10 text-sm text-fg/70">
+        <div class="font-serif text-base text-fg">Aroma dos Temperos</div>
+        <div class="mt-2">Preview local (sem Next.js) rodando via Node portátil.</div>
+        <div class="mt-6 text-xs text-fg/50">Dados: <span id="apiBase">local (preview-data.json)</span></div>
+      </div>
+    </footer>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

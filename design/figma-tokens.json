@@ -1,0 +1,25 @@
+{
+  "color": {
+    "bg": { "value": "hsl(0 0% 100%)" },
+    "fg": { "value": "hsl(230 18% 10%)" },
+    "muted": { "value": "hsl(220 18% 96%)" },
+    "card": { "value": "hsl(0 0% 100%)" },
+    "border": { "value": "hsl(220 14% 90%)" },
+    "primary": { "value": "hsl(230 18% 10%)" },
+    "primaryFg": { "value": "hsl(0 0% 100%)" },
+    "accent": { "value": "hsl(25 30% 33%)" },
+    "accentFg": { "value": "hsl(0 0% 100%)" },
+    "danger": { "value": "hsl(0 72% 52%)" },
+    "dangerFg": { "value": "hsl(0 0% 100%)" }
+  },
+  "radius": {
+    "lg": { "value": "14px" },
+    "xl": { "value": "18px" },
+    "2xl": { "value": "22px" }
+  },
+  "typography": {
+    "fontSans": { "value": "Inter" },
+    "fontSerif": { "value": "Playfair Display" }
+  }
+}
+
