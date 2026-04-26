@@ -12,7 +12,7 @@ export function ProductGallery(props: { name: string; images: Array<{ url: strin
     <div>
       <button
         type="button"
-        className="w-full rounded-3xl border border-border overflow-hidden bg-muted relative aspect-square shadow-soft transition-[transform,box-shadow] duration-200 hover:-translate-y-0.5 hover:shadow-card"
+        className="w-full rounded-3xl border border-border overflow-hidden bg-muted relative aspect-square shadow-soft transition-[transform,box-shadow] duration-200 ease-out hover:-translate-y-0.5 hover:shadow-card active:translate-y-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/60"
         onClick={() => setZoom(true)}
       >
         {img ? (
@@ -33,7 +33,7 @@ export function ProductGallery(props: { name: string; images: Array<{ url: strin
             type="button"
             className={`rounded-2xl border overflow-hidden bg-muted relative aspect-square shadow-soft transition-[transform,box-shadow] duration-200 hover:-translate-y-0.5 hover:shadow-card ${
               idx === active ? "border-ring/60" : "border-border"
-            }`}
+            } active:translate-y-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/60`}
             onClick={() => setActive(idx)}
           >
             <Image src={it.url} alt={it.alt ?? props.name} fill sizes="25vw" className="object-cover" />

@@ -75,7 +75,7 @@ export function AddToCartForm(props: {
           <button
             type="button"
             className={cn(
-              "h-10 w-10 rounded-xl border border-border bg-card shadow-soft transition-[transform,background-color] duration-200 hover:bg-muted/60 hover:-translate-y-0.5 active:translate-y-0"
+              "h-10 w-10 rounded-xl border border-border bg-card shadow-soft transition-[transform,background-color,box-shadow] duration-200 ease-out hover:bg-muted/60 hover:-translate-y-0.5 hover:shadow-card active:translate-y-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/60"
             )}
             onClick={() => setQuantity((q) => Math.max(1, q - 1))}
             aria-label="Diminuir quantidade"
@@ -86,7 +86,7 @@ export function AddToCartForm(props: {
           <button
             type="button"
             className={cn(
-              "h-10 w-10 rounded-xl border border-border bg-card shadow-soft transition-[transform,background-color] duration-200 hover:bg-muted/60 hover:-translate-y-0.5 active:translate-y-0"
+              "h-10 w-10 rounded-xl border border-border bg-card shadow-soft transition-[transform,background-color,box-shadow] duration-200 ease-out hover:bg-muted/60 hover:-translate-y-0.5 hover:shadow-card active:translate-y-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/60"
             )}
             onClick={() => setQuantity((q) => Math.min(99, q + 1))}
             aria-label="Aumentar quantidade"

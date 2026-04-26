@@ -66,7 +66,7 @@ async function loadDb() {
         storeName: "Tempero Gourmet",
         logoUrl: null,
         primaryColor: "#8B4513",
-        backgroundColor: "#FAEBD7",
+        backgroundColor: "#FFFFFF",
         accentColor: "#D2691E",
         whatsapp: null,
         contactEmail: null,

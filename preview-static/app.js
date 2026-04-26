@@ -3,7 +3,7 @@ const OVERRIDES_KEY = "aroma_preview_overrides_v1";
 const ORDERS_KEY = "aroma_preview_orders_v1";
 const ADMIN_SESSION_KEY = "aroma_preview_admin_v1";
 const REVISIONS_KEY = "aroma_preview_revisions_v1";
-const BUILD_ID = "20260426-3";
+const BUILD_ID = "20260426-4";
 
 function setDataSourceLabel(label) {
   const el = document.getElementById("apiBase");

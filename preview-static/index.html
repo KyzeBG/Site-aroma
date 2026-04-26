@@ -44,29 +44,29 @@
     <style>
       :root {
         color-scheme: light;
-        --bg: 34 78% 91%;
-        --fg: 25 18% 11%;
-        --muted: 34 38% 88%;
-        --card: 60 56% 91%;
-        --border: 25 18% 70%;
-        --ring: 25 75% 47%;
+        --bg: 0 0% 100%;
+        --fg: 28 41% 7%;
+        --muted: 32 45% 94%;
+        --card: 33 100% 98%;
+        --border: 33 39% 85%;
+        --ring: 25 76% 31%;
         --primary: 25 76% 31%;
-        --primary-fg: 60 56% 91%;
-        --accent: 25 75% 47%;
-        --accent-fg: 25 18% 11%;
+        --primary-fg: 0 0% 100%;
+        --accent: 19 56% 40%;
+        --accent-fg: 0 0% 100%;
       }
       .dark {
         color-scheme: dark;
-        --bg: 20 59% 7%;
-        --fg: 34 78% 91%;
-        --muted: 20 40% 12%;
-        --card: 20 56% 9%;
-        --border: 20 35% 18%;
-        --ring: 25 75% 47%;
-        --primary: 25 75% 47%;
-        --primary-fg: 20 59% 7%;
-        --accent: 19 56% 40%;
-        --accent-fg: 34 78% 91%;
+        --bg: 0 0% 4%;
+        --fg: 0 0% 100%;
+        --muted: 28 41% 7%;
+        --card: 30 25% 6%;
+        --border: 28 29% 13%;
+        --ring: 19 56% 40%;
+        --primary: 19 56% 40%;
+        --primary-fg: 0 0% 100%;
+        --accent: 25 75% 47%;
+        --accent-fg: 0 0% 4%;
       }
       .brandLogo {
         mix-blend-mode: multiply;
@@ -115,6 +115,16 @@
           transition-duration: 0.01ms !important;
           scroll-behavior: auto !important;
         }
+      }
+
+      :where(button, a) {
+        transition-property: color, background-color, border-color, box-shadow, transform;
+        transition-duration: 240ms;
+        transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      :where(button, a.rounded-xl, a.rounded-2xl, a.rounded-3xl):active {
+        transform: translateY(0.5px) scale(0.99);
       }
     </style>
   </head>
@@ -201,6 +211,6 @@
       </div>
     </footer>
 
-    <script type="module" src="./app.js?v=20260426-3"></script>
+    <script type="module" src="./app.js?v=20260426-4"></script>
   </body>
 </html>
